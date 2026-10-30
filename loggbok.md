@@ -26,4 +26,51 @@ Jag tog initiativ till att skapa en Discord-server, bjuda in gruppmedlemmarna oc
 
 Jag tycker att retrospektivet var ett bra exempel på hur vi kan använda det agila arbetssättet för att kontinuerligt förbättra vårt samarbete. Istället för att bara prata om vad som kan förbättras tog vi också ett konkret steg för att förändra hur vi arbetar tillsammans.
 
-## Sprint 4 - vecka 43 
+
+## Sprint 4 – vecka 43
+
+### Vad jag arbetade med
+
+Den här veckan har jag fortsatt arbeta med autentiseringen i vår webbshop. Jag har framför allt arbetat med JWT och cookies för att hantera användarnas inloggning.
+
+Jag har även implementerat funktionalitet för att återställa den inloggade användaren när sidan laddas om, så att användaren inte behöver logga in på nytt varje gång sidan uppdateras. Jag har också testat att återställningen fungerar som tänkt.
+
+Utöver detta har jag lagt till en cookie-banner i frontend och tillsammans med gruppen undersökt hur vi kan använda integrationstester för att testa våra tjänster.
+
+### Eventuella problem och hur jag löste dem
+
+En utmaning har varit att få hanteringen av JWT och cookies att fungera tillsammans med frontend, framför allt när det gäller att behålla användarens inloggning efter att sidan laddats om.
+
+Jag har därför behövt testa och felsöka hur autentiseringen fungerar mellan frontend och backend och hur vi kan återställa användarens inloggningsstatus.
+
+### Samarbete och agilt arbete
+
+Vi har fortsatt arbeta utifrån vår gemensamma backlog i Trello och fördelat uppgifter under sprinten.
+
+Under veckan har vi även tittat närmare på integrationstestning och diskuterat hur vi skulle kunna använda det i vårt projekt. Det har varit intressant att få en bättre förståelse för hur man kan testa att flera delar av ett system fungerar tillsammans, istället för att bara testa enskilda metoder.
+
+Jag har fortsatt fokusera på autentiseringen och fått en bättre förståelse för hur JWT, cookies och frontend fungerar tillsammans i praktiken.
+
+## Sprint 5 – vecka 44
+
+### Vad jag arbetade med
+
+Den här veckan har vi främst fokuserat på att förbättra dokumentationen i vårt projekt. Vi har arbetat med att lägga till och uppdatera Javadocs samt README-filer för samtliga repositories, så att det blir enklare att förstå hur våra olika tjänster fungerar och hur man kommer igång med projektet.
+
+Utöver dokumentationen har vi även gjort mindre justeringar i frontend för att förbättra användarupplevelsen och få de sista detaljerna på plats.
+
+### Eventuella problem och hur jag löste dem
+
+Den här veckan har vi inte stött på några större tekniska problem. Arbetet har snarare handlat om att gå igenom det vi redan byggt och se till att dokumentationen är tydlig och uppdaterad.
+
+Att skriva Javadocs har också varit ett bra tillfälle att gå tillbaka till tidigare kod och fundera över hur vi kan göra den mer lättförståelig för andra utvecklare.
+
+### Samarbete och agilt arbete
+
+Vi har fortsatt arbeta agilt med vår gemensamma backlog i Trello och fördelat uppgifter inom gruppen.
+
+Den här veckan har vi lagt mer fokus på att förbättra och färdigställa det vi redan har utvecklat istället för att lägga till nya funktioner.
+
+Jag tycker att det har varit nyttigt att få arbeta mer med dokumentation eftersom det är en viktig del av systemutveckling som man kanske inte alltid tänker på när man främst fokuserar på att skriva kod.
+
+
